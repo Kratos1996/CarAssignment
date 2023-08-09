@@ -23,6 +23,7 @@
     <string name="address">Address</string>
     <string name="timing">Timing</string>
     <string name="phone">Phone</string>
+    <string name="company_details">Company Details</string>
 
     <string-array name="cars">
         <item>Maruti Alto K10</item>

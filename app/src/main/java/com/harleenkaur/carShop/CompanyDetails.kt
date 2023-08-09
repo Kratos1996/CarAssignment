@@ -30,6 +30,10 @@ class CompanyDetails : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = DataBindingUtil.setContentView(this,R.layout.activity_company_details)
         sharedPre= SharedPre.getInstance(this)!!
+        binding.toolbar.backBtn.setOnClickListener {
+            onBackPressed()
+        }
+        binding.toolbar.title.text = getString(R.string.company_details)
         companyData = sharedPre.companyData
         binding.icon.setOnClickListener {
             // Check for permission before accessing images
