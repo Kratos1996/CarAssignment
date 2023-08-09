@@ -54,7 +54,7 @@
             android:exported="true"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.harleenkaur.carShop.FinalActivity"
+            android:name="com.harleenkaur.carShop.companyDetails.CompanyDetailsView"
             android:exported="true"
             android:screenOrientation="portrait" />
         <activity

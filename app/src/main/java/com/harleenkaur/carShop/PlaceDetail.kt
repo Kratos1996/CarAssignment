@@ -18,12 +18,11 @@ class PlaceDetail : AppCompatActivity() {
         }
 
         obj = Gson().fromJson(intent.getStringExtra("myVisitingPlaceList")!!,UserDefinedData::class.java)
-        image = intent.getIntExtra("image", -1)
-        setData(obj, image!!)
+        setData(obj)
 
     }
 
-    private fun setData(obj: UserDefinedData, image: Int) {
+    private fun setData(obj: UserDefinedData) {
 
         makeDetailId.text = obj.make
         modelDetailId.text= obj.model
@@ -35,7 +34,7 @@ class PlaceDetail : AppCompatActivity() {
         specs4.text = obj.color
         specs5.text = obj.dateSold
         yearView.text = obj.year
-        tvDetailId.setImageResource(image)
+        tvDetailId.setImageResource(obj.carImageId)
 
 
     }

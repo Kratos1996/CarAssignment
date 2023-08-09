@@ -3,6 +3,7 @@ package com.harleenkaur.carShop
 import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import com.harleenkaur.carShop.companyDetails.CompanyDetailsView
 import kotlinx.android.synthetic.main.activity_menu.*
 
 class menu : AppCompatActivity() {
@@ -35,7 +36,7 @@ class menu : AppCompatActivity() {
             startActivity(intent)
         }
         companyDetailsId.setOnClickListener {
-            val intent = Intent(this, CompanyDetails::class.java)
+            val intent = Intent(this, CompanyDetailsView::class.java)
             startActivity(intent)
         }
 

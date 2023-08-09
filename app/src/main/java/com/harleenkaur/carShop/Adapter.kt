@@ -63,7 +63,6 @@ class Adapter(var myVisitingPlaceList: List<UserDefinedData>) :
         val intent = Intent(holder.itemView.context, PlaceDetail::class.java)
         intent.apply {
             putExtra("myVisitingPlaceList", Gson().toJson(myVisitingPlaceList[position]))
-            intent.putExtra("image", dummyImage)
         }
         holder.itemView.context.startActivity(intent)
     }

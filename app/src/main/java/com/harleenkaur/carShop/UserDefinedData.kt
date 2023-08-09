@@ -18,7 +18,7 @@ data class UserDefinedData(
     var color: String = "",
     var isAvailable: Boolean = false,
     var dateSold: String ="",
-    var carImageId: Int =0
+    var carImageId: Int = 0
 )
 data class CompanyDetailsData(
     var companyName: String ="",
