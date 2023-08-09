@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.harleenkaur.carShop">
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/alto"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/alto"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.PatnaTour">
+        <activity
+            android:name="com.harleenkaur.carShop.CompanyDetails"
+            android:screenOrientation="portrait"
+            android:exported="true" />
+        <activity
+            android:name="com.harleenkaur.carShop.ModifyVehicles"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden"
+            android:exported="true" />
+        <activity
+            android:name="com.harleenkaur.carShop.AddDetails"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden"
+            android:exported="true" />
+        <activity
+            android:name="com.harleenkaur.carShop.UpdateDetails"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden"
+            android:exported="true" />
+        <activity
+            android:name="com.harleenkaur.carShop.SoldVehicle"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|adjustResize"
+            android:exported="true" />
+
+        <activity
+            android:name="com.harleenkaur.carShop.SplashScreen"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.harleenkaur.carShop.menu"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.harleenkaur.carShop.PlaceDetail"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.harleenkaur.carShop.FinalActivity"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.harleenkaur.carShop.MainActivity"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+    </application>
+
+</manifest>

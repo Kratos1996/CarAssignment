@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Vehicle Shop</string>
+    <string name="add_vehicles_detail">Add Vehicles Detail</string>
+    <string name="modify_vehicles_detail">Modify Vehicles Detail</string>
+    <string name="soldCars">Sold Vehicles Detail</string>
+    <string name="available_cars">Available Vehicles Detail</string>
+    <string name="modified_cars">Modified Vehicles</string>
+    <string name="cars">Vehicles</string>
+    <string name="doors">doors</string>
+    <string name="price_range">Price Range</string>
+    <string name="price_range_hint">Price Range:</string>
+    <string name="color_hint">Color:</string>
+    <string name="color">Color</string>
+    <string name="date_sold_hint">Date Sold:</string>
+    <string name="engine_type">Engine Type</string>
+    <string name="engine_cylinder_type">Engine Cylinder Type:</string>
+    <string name="model">Model</string>
+    <string name="save">Save</string>
+    <string name="year">Year</string>
+    <string name="condition">Condition :</string>
+    <string name="companyname">companyName</string>
+    <string name="company_bio">Company Bio</string>
+    <string name="address">Address</string>
+    <string name="timing">Timing</string>
+    <string name="phone">Phone</string>
+
+    <string-array name="cars">
+        <item>Maruti Alto K10</item>
+        <item>Hyundai i20</item>
+        <item>Mercedes-Benz GLE</item>
+        <item>Tata Punch</item>
+        <item>Renault Kiger RXL</item>
+        <item>Mahindra Thar</item>
+        <item>Tata Tiago Ev</item>
+        <item>Toyota Fortuner</item>
+        <item>Volkswagen Virtus</item>
+        <item>Maruti Baleno</item>
+    </string-array>
+</resources>

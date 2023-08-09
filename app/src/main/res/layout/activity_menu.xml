@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#235E73"
+    android:layout_height="match_parent">
+    <LinearLayout
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+
+        android:padding="20dp"
+        tools:context=".menu">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:fontFamily="serif-monospace"
+            android:gravity="center_horizontal"
+            android:text="menu"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:textSize="45sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_marginStart="60dp"
+            android:layout_marginEnd="60dp"
+            android:background="@color/black"
+            android:gravity="center_horizontal" />
+
+        <TextView
+            android:id="@+id/allvehicleId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/shape1"
+            android:clickable="true"
+
+            android:fontFamily="sans-serif"
+            android:gravity="center_horizontal"
+            android:padding="10dp"
+            android:paddingTop="20dp"
+            android:text="All Vehicles"
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/avilableId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:background="@drawable/shape1"
+            android:clickable="true"
+
+            android:fontFamily="sans-serif"
+
+            android:gravity="center_horizontal"
+            android:padding="10dp"
+            android:text="Available Vehices"
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/soldVehicleId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape1"
+            android:clickable="true"
+            android:fontFamily="sans-serif"
+            android:gravity="center_horizontal"
+            android:padding="10dp"
+            android:layout_marginTop="20dp"
+            android:text="Sold Vehicles"
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+
+
+        <TextView
+            android:id="@+id/addDetailsId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape1"
+            android:clickable="true"
+            android:fontFamily="sans-serif"
+            android:gravity="center_horizontal"
+            android:padding="10dp"
+            android:layout_marginTop="20dp"
+
+            android:text="Add Vehicles"
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/modifyDetailsId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape1"
+            android:clickable="true"
+            android:fontFamily="sans-serif"
+            android:gravity="center_horizontal"
+            android:padding="10dp"
+            android:layout_marginTop="20dp"
+            android:text="Modify Vehicles"
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/companyDetailsId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape1"
+            android:clickable="true"
+            android:fontFamily="sans-serif"
+            android:gravity="center_horizontal"
+            android:padding="10dp"
+            android:layout_marginTop="20dp"
+            android:text="Company Details"
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>
